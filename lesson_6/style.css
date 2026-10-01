@@ -1,0 +1,54 @@
+body {
+  background-color: #222;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  /* border: 2px solid red; */
+}
+
+.sizes {
+  margin-top: 30px;
+  display: flex;
+  gap: 30px;
+}
+
+.size-btn {
+  padding: 10px 20px;
+  font-size: 28px;
+  background-color: transparent;
+  border: 3px solid purple;
+  color: purple;
+  cursor: pointer;
+}
+
+.size-btn.active {
+  background-color: purple;
+  color: #222;
+  transform: scale(1.1);
+  box-shadow: 0 0 10px 2px purple;
+}
+
+.field {
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+    align-items: start;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.field .square {
+  width: 20px;
+  height: 20px;
+  background-color: #555;
+}
