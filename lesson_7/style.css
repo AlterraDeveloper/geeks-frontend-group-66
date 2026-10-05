@@ -1,0 +1,30 @@
+body{
+    background-color: #333;
+}
+
+.action {
+    background-color: #15b015;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+.action + .action {
+    margin-left: 10px;
+}
+
+.lesson {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    width: 200px;
+    height: 80px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.lesson.completed {
+    background-color: gold;
+}
